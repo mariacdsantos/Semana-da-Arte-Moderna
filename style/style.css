@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Narnia';
+    src: url(../fontes/Narnia.otf) format('opentype'),
+    url(../fontes/Narnia.ttf) format('truetype');
+}
