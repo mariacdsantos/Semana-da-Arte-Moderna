@@ -18,7 +18,7 @@
 body{
     margin: 0;
     background-color: #ebe0d3;
-    color: #373326;
+    color: #302c21;
     font-family: 'Louis George';
     font-size: 22px;
     line-height: 1.6;
@@ -67,6 +67,7 @@ h1{
     margin: 0 auto;
 }
 .img-principal{
+    width: 100%;
     border-radius: 2px;
     box-shadow: 0px 4px 12px #847234;
    
@@ -101,8 +102,16 @@ a:hover{
     color: #373532;
 }
 .legenda{
-    padding-top;
+    color: #100f0f;
+    padding-top: 1px;
     font-size: 20px;
+    text-align: center;
+}
+#semana-arte{
+    width: 100%;
+}
+#pos-img{
+    padding-top: 30px;
 }
 
 .rodape address{
