@@ -18,14 +18,14 @@
 body{
     margin: 0;
     background-color: #ebe0d3;
-    color: #847234;
+    color: #373326;
     font-family: 'Louis George';
     font-size: 22px;
     line-height: 1.6;
 }
 h2, h3{
     font-size: 40px;
-    color: #A64833;
+    color: #847234;
     font-family: 'Apple';
     letter-spacing: 2px
 }
@@ -50,6 +50,7 @@ h1{
 
 }
 .cabecalho{
+    margin-top: 10px;
     border: #55514a;
     margin-left: 100px;
     margin-right: 100px;
@@ -93,11 +94,15 @@ a:hover{
 .card{
     padding-top: 10px;
     padding: 24px;
-    background-color: #CB983A;
+    background-color: #CB983A; 
     border: 1px solid #ffc47c;
     border-radius: 10px;
     box-shadow: 0 10px 30px #847234;
     color: #373532;
+}
+.legenda{
+    padding-top;
+    font-size: 20px;
 }
 
 .rodape address{
