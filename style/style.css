@@ -7,56 +7,99 @@
     font-family: 'Cinzel';
     src: url(../fontes/Cinzel-Regular.otf) format(opentype);
 }
+@font-face {
+    font-family: 'Louis George';
+    src: url(../fontes/Louis\ George\ Cafe\ Light.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'Apple';
+    src: url(../fontes/AppleGaramond.ttf) format(truetype);
+}
 body{
     margin: 0;
-    background-color: #F29849;
+    background-color: #ebe0d3;
     color: #847234;
-    font-family: 'Cinzel';
-    font-size: 16px;
+    font-family: 'Louis George';
+    font-size: 22px;
     line-height: 1.6;
 }
-h1, h2, h3{
-    color: #D9A036;
-    font-family: 'Narnia';
+h2, h3{
+    font-size: 40px;
+    color: #A64833;
+    font-family: 'Apple';
+    letter-spacing: 2px
 }
 h1{
+    color: #ebe0d3;
+    font-family: 'Narnia';
     font-size: 75px;
-    text-shadow:5px 5px 5px #55514a;
     margin-bottom: 10px;
     padding-bottom: 10px;
     letter-spacing: 1px
 }
 .subtitulo{
+    color: #ebe0d3;
 
 }
 .etiqueta{
     font-family:'Cinzel';
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #ebe0d3;
     font-size: 15px;
     letter-spacing: 10px;
 
 }
 .cabecalho{
+    border: #55514a;
+    margin-left: 100px;
+    margin-right: 100px;
     background-color: #847234;
     color: rgb(255, 255, 255);
-    padding: 20px;
+    padding: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+
 }
 .container{
     width: 90%;
     max-width: 1000px;
     margin: 0 auto;
 }
+.img-principal{
+    border-radius: 2px;
+    box-shadow: 0px 4px 12px #847234;
+   
+}
 .rodape{
     margin-top: 40px;
     padding: 25px;
-    background-color: rgb(4, 104, 115);
+    background-color: #847234;
     color: rgb(246, 243, 243);
     text-align: center;
+    font-family: 'Cinzel'
     
 }
+a{
+    color: #D9A036;
+}
+a:hover{
+    background-color: #7d6d32;
+
+    border-radius: 2px;
+    box-shadow: 0px 4px 12px rgb(228, 255, 228);
+    transform: translate(-2px);
+    color: #dfd0c3;
+}
+.card{
+    padding-top: 10px;
+    padding: 24px;
+    background-color: #CB983A;
+    border: 1px solid #ffc47c;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px #847234;
+    color: #373532;
+}
+
 .rodape address{
     font-style: italic;
     
